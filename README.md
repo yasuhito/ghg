@@ -1,6 +1,6 @@
 # ghg
 
-[![npm version](https://img.shields.io/npm/v/ghg)](https://www.npmjs.com/package/ghg)
+[![npm version](https://img.shields.io/npm/v/ghg)](https://www.npmjs.com/package/ghg) [![ci](https://github.com/yasuhito/ghg/actions/workflows/ci.yml/badge.svg)](https://github.com/yasuhito/ghg/actions/workflows/ci.yml)
 
 List open GitHub issues and pull requests for repositories under a directory.
 
