@@ -6,7 +6,7 @@
   "author": "Yasuhito Takamiya",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yasuhito/ghg.git"
+    "url": "git+https://github.com/yasuhito/ghg.git"
   },
   "bugs": {
     "url": "https://github.com/yasuhito/ghg/issues"
