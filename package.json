@@ -1,0 +1,32 @@
+{
+  "name": "ghg",
+  "version": "0.1.0",
+  "description": "List open GitHub issues and pull requests for repos under a directory.",
+  "license": "MIT",
+  "bin": {
+    "ghg": "dist/ghg.js"
+  },
+  "type": "commonjs",
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint . --ext .ts",
+    "test": "vitest run",
+    "format": "prettier --write .",
+    "install-local": "npm run build && mkdir -p \"$HOME/.local/bin\" && install -m 755 dist/ghg.js \"$HOME/.local/bin/ghg\""
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.33.0",
+    "@typescript-eslint/parser": "^8.33.0",
+    "@types/node": "^22.13.0",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "vitest": "^2.1.9"
+  }
+}
