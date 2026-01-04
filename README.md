@@ -1,6 +1,14 @@
 # ghg
 
+[![npm version](https://img.shields.io/npm/v/ghg)](https://www.npmjs.com/package/ghg)
+
 List open GitHub issues and pull requests for repositories under a directory.
+
+## Install
+
+```bash
+npm install -g ghg
+```
 
 ## Usage
 
