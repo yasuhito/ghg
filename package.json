@@ -1,6 +1,6 @@
 {
   "name": "ghg",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "List open GitHub issues and pull requests for repos under a directory.",
   "license": "MIT",
   "author": "Yasuhito Takamiya",
